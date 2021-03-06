@@ -1,9 +1,4 @@
 Rails.application.routes.draw do
-  get 'resources/index'
-  get 'resources/show'
-  get 'crops/rice'
-  get 'crops/wheat'
-  get 'crops/corn'
   root to: 'pages#home'
   get 'history', to: 'pages#history', as: :history
 
